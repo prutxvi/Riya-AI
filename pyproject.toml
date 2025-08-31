@@ -1,0 +1,21 @@
+
+[tool.poetry]
+name = "veda"
+version = "0.1.0"
+description = "Professional Telugu AI assistant for students and users."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[project]
+name = "veda"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "livekit-agents[google]~=1.2",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "python-dotenv>=1.1.1",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
